@@ -1,0 +1,12 @@
+{
+  "name": "cca_dataCollection",
+  "description": "Twitter API data collection",
+  "author": {
+    "name": "Cambridge Coding Academy"
+  },
+  "dependencies": {
+    "oauth": "0.9.9",
+    "twit": "^1.1.19"
+  },
+  "homepage": "https://cambridgecoding.com"
+}
