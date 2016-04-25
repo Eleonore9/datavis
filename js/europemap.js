@@ -1,10 +1,10 @@
 /**
  * Created by eleonore on 23/05/15.
  */
-var width = 1000;
-var height = 900;
+var width = 500;
+var height = 400;
 
-var graphics = d3.select("body")
+var graphics = d3.select(".map-europe")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -21,7 +21,7 @@ function loadData(error, dataset) {
         console.log(error);
     }
     else {
-        console.log(dataset)
+        //console.log(dataset)
         drawData(dataset);
     }
 };
